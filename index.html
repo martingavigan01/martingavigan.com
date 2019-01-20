@@ -53,16 +53,17 @@ and is wrapped around the whole page content, except for the footer in this exam
   <hr>
 <!-- First Blog entry -->
  <div class="w3-card-4 w3-margin w3-white">
-  <img src="beginning.jpg" alt="start" style="width:100%">
+  <img src="beginning.jpg" alt="start" style="width:50%">
     <div class="w3-container">
       <h3><b>My First HTML Page     <span class="w3-opacity">January 8, 2018</span></h3>
     </div>
 
     <div class="w3-container">
       <p>It all first started by deciding to learn something new. 
+        <br>
         When I looked at what to learn, HTML, CCS and Javascript appeared to be good starting points.
 
-        After searching on the web, I found the W3 School site, (the link is on the left) which has been helpful and simple to understand. 
+        After searching Online, I found the W3 School site, (the link is on the right) which has been helpful and simple to understand. 
     
         This helped me to create my first HTML page, which was fairly simple. 
         All you need is a text editor to write the HTML and a browser display the page. 
@@ -73,20 +74,21 @@ and is wrapped around the whole page content, except for the footer in this exam
     <div class="w3-card-4 w3-margin w3-white">
       <img src="domain_Name.png" alt="domain_name" style="widows:50%">
         <div class="w3-container">
-          <h3><b>Creating a My Web Domain </b> <span class="w3-opacity">January 9, 2018</span></h3>
+          <h3><b>Creating My Web Domain </b> <span class="w3-opacity">January 9, 2018</span></h3>
         </div>
     
         <div class="w3-container">
           <p>Overnight, I decided that a good challenge would be to build a website. 
             <br>
-            Step 1 in doing this was to registering my domain. I was creative and decided to register "martingavigan.com". 
+            The first step was to create and register a domain. I was creative and decided to register "martingavigan.com". 
             <br>
-            To do this, I asked a friend and he suggested 'GoDaddy' to register the domain but not to use them 
-            to host as you can do that yourself in AWS, and its cheaper.
+            To register the domain a friend suggested using 'GoDaddy'. 
+            He said to use them only to register the domain 
+            but not to host, as you can do cheaply yourself in AWS.
   <br>
-            To registry a domain was simple and is created in 15 mins.
-  
-            Once you have the domain, GoDaddy place a default page on the site. 
+            Registering the domain was simple and the site was created in 15 mins.
+            <br>
+            Once I had the domain, GoDaddy placed a default page on the site. 
             The next step was to replace that page with an intial site I created.
             </p>
         </div>
@@ -99,17 +101,24 @@ and is wrapped around the whole page content, except for the footer in this exam
       </div>
   
       <div class="w3-container">
-        <p>Now I have a domain, I now need a place to host my site and content.
+        <p>Now I have a domain, I need a place to host my site and content.
+          For this, I'm using Amazon Web Services, (the link is on the right).
           <br>
-          For this, Im using Amazon Web Services, the link is on the right.
-          I found this <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html">page</a> very useful. 
-          The page walks you through the steps needed to config "S3", which is a cloud storage space that will hold your sites content and Route 53, 
-          which connects your new domain name to the place where your content is stored. This means, once people enter your domain URL into a browner, they will sent to your content stored
+          To help with the set up, I found this <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html">page</a> very useful. 
+          The page walks you through the steps needed to configure S3, which is the cloud storage that will hold your content, and Route 53, 
+          which connects your new domain name to the place where your content is stored. 
+          This means, once people enter your domain URL into a browser, they will be sent to your content stored
           in S3. 
-
+<br>
           The one thing the link does tell you. Once you have completed the steps, you will need to copy the nameservers that are defined by Route 53
-          and save them against your domain name in GoDaddy. This <a href="https://www.youtube.com/watch?v=L7kqlkvllv0">YouTube tutorial</a> explain how to do this,
-           (it also includes the step on the link)
+          and save them against your domain name in GoDaddy. This <a href="https://www.youtube.com/watch?v=L7kqlkvllv0">YouTube tutorial</a> explains how to do this,
+           (it also includes the steps covered in the AWS link)
+
+          <br>
+
+          One final point, you can test the set up as you go to ensure the right permissions and 
+          configuration have been added in S3 and Route 53. Also, routing frmo your domain to the nameservers defined in AWS can take sometime to happen.
+          <br> Be Patient!
           </p>
       </div>
     </div>
